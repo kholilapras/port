@@ -6,21 +6,5 @@
 </head>
 
 <body>
-    <h1>Project Portofolio</h1>
-    <a href="/add">Tambah Project</a>
-    <ul>
-        <% projects.forEach(project=> { %>
-            <li>
-                <strong>
-                    <%= project.title %>
-                </strong><br />
-                <%= project.description %><br />
-                    <a href="<%= project.link %>">
-                        <%= project.link %>
-                    </a>
-            </li>
-            <% }); %>
-    </ul>
-</body>
 
 </html>
